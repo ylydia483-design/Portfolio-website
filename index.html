@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Product design portfolio" />
+    <title>Product Designer — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="project-featured.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Portfolio home">PD<span>·</span>03</a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a><a href="#process">Process</a><a href="#about">About.</a><a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch colour theme"><span aria-hidden="true">◐</span></button>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="top">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Product designer · 3 years in practice</p>
+          <h1>Making digital products feel <em>clearer</em>, calmer, and worth returning to.</h1>
+          <p class="lede">I turn complex product questions into useful experiences across mobile, web, and design systems—working closely with the people who build and use them.</p>
+          <div class="hero-actions"><a class="button" href="#work">Selected work <span>↘</span></a><a class="text-link" href="https://drive.google.com/file/d/1zPmy1d26vRxPrmOS3AzMEjlGAGNSc1TD/preview" target="_blank" rel="noopener noreferrer">Preview CV <span>↗</span></a><a class="text-link" href="#contact">Start a conversation <span>↗</span></a></div>
+        </div>
+        <div class="hero-art reveal" aria-hidden="true">
+          <div class="art-window"><div class="art-bar"><i></i><i></i><i></i></div><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-card art-card-one"><b>01</b><span>Insight</span></div><div class="art-card art-card-two"><b>02</b><span>Intent</span></div><div class="art-dot"></div></div>
+          <p class="art-label">From uncertainty to a useful next step</p>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work">
+        <div class="section-intro reveal"><p class="eyebrow">All projects</p><h2>Product thinking, made visible.</h2><p>A complete index of work across product design, web experiences, and design systems. Each project opens into a detailed case study.</p></div>
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section process-section" id="process">
+        <div class="section-intro reveal"><p class="eyebrow">How I work</p><h2>Enough process to learn, not perform.</h2></div>
+        <ol class="process-list">
+          <li class="reveal"><span>01</span><div><h3>Frame the right problem</h3><p>Build shared context around people, constraints, and what a useful outcome needs to change.</p></div></li>
+          <li class="reveal"><span>02</span><div><h3>Make the invisible tangible</h3><p>Use flows, prototypes, and plain-language decisions to turn assumptions into something the team can examine.</p></div></li>
+          <li class="reveal"><span>03</span><div><h3>Test the important parts</h3><p>Bring real feedback into the work early, then iterate toward clarity, confidence, and feasibility.</p></div></li>
+          <li class="reveal"><span>04</span><div><h3>Carry it through</h3><p>Partner with engineering and product through delivery, documenting decisions and learning from what ships.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="about-mark reveal" aria-hidden="true"><span>?</span><i></i><i></i><i></i></div>
+        <div class="about-copy reveal"><p class="eyebrow">About</p><h2>Design is how I help teams make better decisions.</h2><p>I am a product designer with three years of industry experience across digital products, responsive web experiences, and the systems that keep them coherent. My practice blends research, interaction design, visual craft, and practical collaboration.</p><p>I care most about reducing friction for people—and reducing uncertainty for the teams serving them.</p><div class="capabilities"><span>Product strategy</span><span>UX research</span><span>Interaction design</span><span>Design systems</span><span>Prototyping</span><span>Usability testing</span></div></div>
+      </section>
+
+      <section class="contact section" id="contact">
+          <div class="contact-copy reveal"><p class="eyebrow">Let’s connect</p><h2>Have a product question worth untangling?</h2><p>For opportunities, collaborations, or a thoughtful product conversation, get in touch.</p><a class="button button-light" href="#contact-form">Send a message <span>↘</span></a></div>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required /></div>
+          <div><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required /></div>
+          <div><label for="message">What would you like to discuss?</label><textarea id="message" name="message" rows="3" required></textarea></div>
+          <button type="submit" class="form-submit">Send message <span>↗</span></button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+    <footer><span>© <span id="year"></span> Product Design Portfolio</span><a href="#top">Back to top ↑</a></footer>
+
+    <dialog class="case-study" id="case-study" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Close case study">×</button><div id="dialog-content"></div></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
