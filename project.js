@@ -8,7 +8,7 @@ const records={
     ['Impact and Solutions','The resulting concept centralises operational work around a shared request record, clear ownership, and timely uLYDIAates. It creates a foundation for more consistent workplace support and easier team coordination.'],
     ['Design Snapshots','Show the request dashboard, a guided submission flow, task-detail states, and the operational view used to prioritise and resolve work.']
   ]},
-  'community-board':{title:'Community Board',domain:'Community / Responsive web',role:'UX & interaction design',summary:'A community space that helps people discover relevant uLYDIAates, share opportunities, and participate with confidence.',accent:'#b47650',sections:[
+  'community-board':{title:'Community Board',domain:'Community / Responsive web',role:'UX & interaction design',summary:'A community space that helps people discover relevant uLYDIAates, share opportunities, and participate with confidence.',accent:'#b47650',images:[['https://cdn.dribbble.com/userupload/48992057/file/777023cd618fac3f36ddd4131260ad0c.png?resize=1504x3261&vertical=center','Community Board main interface']],sections:[
     ['Project overview','A responsive community platform for announcements, discussions, local opportunities, and events. The project focused on making useful information easy to find while keeping participation welcoming.'],
     ['The Challenge','Community information can quickly become fragmented or overwhelming. People need to know what is relevant to them, while contributors need a straightforward way to share without creating noise.'],
     ['Goals and Objectives','Improve content discovery, create a clear path to contribute, and establish lightweight structure that helps members understand where conversations belong.'],
