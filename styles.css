@@ -22,4 +22,6 @@
 .contact-arrow{color:#8d929c;font-size:16px;text-align:right}
 .contact-channel:hover .contact-arrow,.contact-channel:focus-visible .contact-arrow{color:#f08a69}
 .contact-channels+.button-light{margin-top:0}
+.contact-copy .button-light{min-height:48px;align-items:center;gap:24px;padding:0 16px;border:1px solid #f08a69;background:#f08a69;color:#171717;box-shadow:4px 4px 0 #090a0c;transition:transform .2s,background .2s,color .2s,box-shadow .2s}
+.contact-copy .button-light:hover,.contact-copy .button-light:focus-visible{border-color:#f6b39d;background:#f6b39d;color:#171717;transform:translate(2px,2px);box-shadow:2px 2px 0 #090a0c}
 @media(max-width:700px){.contact-channel{min-height:66px;padding:9px 14px}.contact-channel>span:nth-child(2){font-size:14px}}
