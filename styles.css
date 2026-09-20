@@ -25,3 +25,10 @@
 .contact-copy .button-light{min-height:48px;align-items:center;gap:24px;padding:0 16px;border:1px solid #f08a69;background:#f08a69;color:#171717;box-shadow:4px 4px 0 #090a0c;transition:transform .2s,background .2s,color .2s,box-shadow .2s}
 .contact-copy .button-light:hover,.contact-copy .button-light:focus-visible{border-color:#f6b39d;background:#f6b39d;color:#171717;transform:translate(2px,2px);box-shadow:2px 2px 0 #090a0c}
 @media(max-width:700px){.contact-channel{min-height:66px;padding:9px 14px}.contact-channel>span:nth-child(2){font-size:14px}}
+
+body{position:relative;isolation:isolate;min-height:100vh;background:linear-gradient(135deg,color-mix(in srgb,var(--paper) 88%,var(--accent) 12%),var(--paper) 44%,color-mix(in srgb,var(--paper) 90%,#a9b8b1 10%));background-attachment:fixed}
+body:before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.34;background-image:linear-gradient(115deg,transparent 0 48%,color-mix(in srgb,var(--paper) 65%,transparent) 48.2% 48.35%,transparent 48.55%),linear-gradient(color-mix(in srgb,var(--line) 55%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,var(--line) 55%,transparent) 1px,transparent 1px);background-size:100% 100%,72px 72px,72px 72px}
+.section:not(.contact):not(.about-section){background:color-mix(in srgb,var(--paper) 72%,transparent);backdrop-filter:blur(18px) saturate(115%);border-top:1px solid color-mix(in srgb,var(--line) 78%,transparent);border-bottom:1px solid color-mix(in srgb,var(--line) 48%,transparent)}
+.about-section{background:color-mix(in srgb,var(--panel) 76%,transparent);backdrop-filter:blur(18px) saturate(115%)}
+.contact{background:color-mix(in srgb,var(--inverse) 90%,transparent);backdrop-filter:blur(18px) saturate(112%)}
+footer{background:color-mix(in srgb,var(--inverse) 92%,transparent);backdrop-filter:blur(18px)}
