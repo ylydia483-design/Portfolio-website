@@ -32,3 +32,6 @@ body:before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;opa
 .about-section{background:color-mix(in srgb,var(--panel) 76%,transparent);backdrop-filter:blur(18px) saturate(115%)}
 .contact{background:color-mix(in srgb,var(--inverse) 90%,transparent);backdrop-filter:blur(18px) saturate(112%)}
 footer{background:color-mix(in srgb,var(--inverse) 92%,transparent);backdrop-filter:blur(18px)}
+.art-window{transform:perspective(900px) rotateX(var(--tilt-y,0deg)) rotateY(var(--tilt-x,0deg));transition:transform .18s ease-out,box-shadow .25s;background:color-mix(in srgb,var(--panel) 76%,transparent);box-shadow:0 24px 55px #00000018}
+.art-window:after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at var(--mouse-x,50%) var(--mouse-y,50%),color-mix(in srgb,var(--accent) 18%,transparent),transparent 30%);mix-blend-mode:screen;opacity:.8;transition:background .18s ease-out}
+@media(prefers-reduced-motion:reduce){.art-window{transform:none!important;transition:none}.art-window:after{display:none}}
