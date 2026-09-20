@@ -9,3 +9,17 @@
 .hero-actions .text-link:hover,.hero-actions .text-link:focus-visible{background:var(--ink);border-color:var(--ink);color:var(--paper);transform:translateY(-2px)}
 .hero-actions .text-link span,.hero-actions .button span{font-size:16px;line-height:1}
 @media(max-width:620px){.hero-actions{align-items:stretch}.hero-actions .button,.hero-actions .text-link{flex:1 1 100%}}
+
+.contact-channels{margin:30px 0 18px;border:1px solid #303338;border-radius:18px;overflow:hidden;background:#111418}
+.contact-channel{display:grid;grid-template-columns:40px 1fr 18px;align-items:center;gap:14px;min-height:72px;padding:10px 18px;color:#d7d9df;text-decoration:none;transition:background .2s,color .2s}
+.contact-channel+.contact-channel{border-top:1px solid #303338}
+.contact-channel:hover,.contact-channel:focus-visible{background:#1d2228;color:#fff}
+.contact-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:11px;background:#282220;color:#f08a69;font-size:20px;line-height:1}
+.whatsapp-icon{position:relative;border:1px solid #564039;background:#2b2522}
+.whatsapp-icon:before{content:'';width:14px;height:14px;border:1.5px solid currentColor;border-radius:50%}
+.whatsapp-icon:after{content:'';position:absolute;width:5px;height:5px;bottom:10px;left:10px;border-left:1.5px solid currentColor;transform:rotate(-25deg)}
+.contact-channel>span:nth-child(2){overflow-wrap:anywhere;font-size:16px}
+.contact-arrow{color:#8d929c;font-size:16px;text-align:right}
+.contact-channel:hover .contact-arrow,.contact-channel:focus-visible .contact-arrow{color:#f08a69}
+.contact-channels+.button-light{margin-top:0}
+@media(max-width:700px){.contact-channel{min-height:66px;padding:9px 14px}.contact-channel>span:nth-child(2){font-size:14px}}
