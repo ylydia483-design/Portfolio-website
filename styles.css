@@ -44,3 +44,10 @@ footer{background:color-mix(in srgb,var(--inverse) 92%,transparent);backdrop-fil
 @media(prefers-reduced-motion:reduce){.art-window,.hero-copy h1{transform:none!important;transition:none}.art-window:after{display:none}}
 @keyframes status-pulse{50%{opacity:.45;box-shadow:0 0 0 8px color-mix(in srgb,var(--accent) 6%,transparent)}}
 @media(prefers-reduced-motion:reduce){.status-dot{animation:none}}
+.dark{background:#151515}
+.dark .hero,.dark .section:not(.contact):not(.about-section),.dark .about-section,.dark .contact,.dark footer{background:#151515}
+.dark .hero-video{opacity:.14}
+.dark .contact{color:var(--ink)}
+.dark footer{border-color:#303030;color:var(--muted)}
+.dark .contact-copy p:not(.eyebrow),.dark .contact-form label{color:var(--muted)}
+.dark .contact-form input,.dark .contact-form textarea{color:var(--ink);border-color:#454545}
