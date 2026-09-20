@@ -35,7 +35,7 @@ const records={
     ['Impact and Solutions','The proposed experience turns wellbeing support into a series of small, understandable interactions. It gives users a clearer view of their routines while maintaining a calm and non-judgemental tone.'],
     ['Design Snapshots','Include onboarding and consent, the daily check-in, routine recommendations, progress reflections, and reminder controls.']
   ]},
-  'insurance-app':{title:'Insurance App',domain:'Insurance / Mobile & web',role:'End-to-end product design',summary:'An insurance experience designed to help people understand coverage, manage policies, and take action when it matters.',accent:'#5e918e',sections:[
+  'insurance-app':{title:'Insurance App',domain:'Insurance / Mobile & web',role:'End-to-end product design',summary:'An insurance experience designed to help people understand coverage, manage policies, and take action when it matters.',accent:'#5e918e',images:[['https://cdn.dribbble.com/userupload/49073455/file/64a4e805e038ee1d350a3436096e6cfc.jpg?resize=2400x4241&vertical=center','Insurance App policy and coverage screen']],sections:[
     ['Project overview','A digital insurance product that brings policy information, claims support, and account management into a more understandable customer experience.'],
     ['The Challenge','Insurance language, policy details, and claims processes can be difficult to navigate, particularly when people need help quickly. The experience needs to feel trustworthy without oversimplifying important information.'],
     ['Goals and Objectives','Help customers understand their coverage, make essential actions easy to find, and create supportive guided paths for policy changes and claims-related tasks.'],
